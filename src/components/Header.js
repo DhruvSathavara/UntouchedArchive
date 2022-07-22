@@ -32,12 +32,13 @@ const {login} = bookContext;
   // };
   return (
 
-    <nav className="navbar navbar-light bg-light justify-content-between">
-      <Link to="/">
-        <img src="" alt="logo.img"></img>
+    <nav style={{height:"70px"}} className="navbar navbar-light bg-light justify-content-between">
+      <Link style={{marginBottom:"-45px"}} to="/">
+        {/* <img src="" alt="logo.img"></img> */}
+        <h2 style={{fontFamily:"revert",fontSize:"40px"}}>Untouched Archive</h2>
       </Link>
       <Link to="upload-form">
-        <button className="btn btn-primary" style={{ marginLeft: '73vw' }}>Upload form</button>
+        <button className="btn btn-primary" style={{ marginLeft: '82vw' }}>Upload form</button>
       </Link>
 
       <button onClick={()=>login()} className="btn btn-primary my-2 my-sm-0" type="submit">Connect</button>

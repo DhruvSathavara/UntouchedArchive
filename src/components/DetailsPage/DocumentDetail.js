@@ -38,9 +38,7 @@ function DocumentDetail() {
                     <div className="row view-btn-row">
                                 <button className="btn btn-info my-2 viewonline-btn my-sm-0 offset-4" type="submit"><a href={bookDetails.file} >View Online</a></button>
                             </div>
-                        <div className="row download-btn-row">
-                            <button className="btn btn-danger my-2 download-btn my-sm-0 offset-3" type="submit">Download</button>
-                        </div>
+                      
                     </div>
 
                     <div className="under-line col-12"></div>
